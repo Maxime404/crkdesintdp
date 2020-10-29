@@ -15,7 +15,7 @@
 
 Hi, here are some rules to carry out this story oav;
 
-* You **MUST** create a git repository named `ts-crkdesintdp`
+* You **MUST** create a git repository named `crkdesintdp`
 * You **MUST** create a file called `.author.json` with your fullname
 
 ```sh
