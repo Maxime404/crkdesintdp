@@ -30,7 +30,7 @@ Hi, here are some rules to carry out this story oav;
 
 > Don't forget, there is no useless question :-)
 
-* You **MUST** return the project on Tuesday April, 7 at 18:30 pm by sending an MP on slack with the link of your github repo.
+* You **MUST** return the project on Friday October, 30 at 04:00 pm by sending an MP on slack with the link of your github repo.
 
 Your repository **MUST** contain the totality of your schema exports PNG files.
 
