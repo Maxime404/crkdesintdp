@@ -1,0 +1,44 @@
+Chat Server
+
+A server chat would consist of chat rooms and threads (text chat).
+The salons and threads can be private, except the general chat room and general thread.
+Authorized users have the option to add new users and allow them access to chat rooms and threads.
+Each user can switch from living room and access any thread (read and write) if he is allowed access.
+
+So there will be a class server, composed of ChatRoom and Thread classes. There would also be a class User.
+
+
+# Server class :
+Here is the instanciation of the salons and threads
+A serveur will have an object with all users allowed to acces of they servers, chat rooms, and threads. 
+A serveur will also have some methods :
+    - switchChatRoom(user: User, chat_room: ChatRoom)
+    - addUserOnServer(user: User)
+
+# ChatRoom and Thread classes :
+Each chat room and thread will have a name and methods: 
+    - isProvate():boolean
+    - isAuthorized(user: User): boolean
+
+    ChatRoom class :
+        - addUserOnChatRoom(user: User, chat_room: ChatRoom)
+        - leave(user: User)
+        - mute(user: User)
+        - unmute(user: User)
+        - activeWebCam(user: User)
+        - disableWebCam(user: User)
+
+    Thread class :
+        Thread class will composed of Message class
+        - addUserOnThread(user: User, chat_room: ChatRoom)
+        - addMessage(user: User, message: Message)
+        - removeMessage(user: User, message: Message)
+
+            Message class :
+                Message class will have id, user_id, text and image
+
+# User class :
+A user will have a id, name, nickname, password and biography.
+
+
+
